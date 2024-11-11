@@ -15,7 +15,7 @@ correlation policy, this module can trigger an automation response and shun an i
 
 ![Data Flow Overview](./images/data_flow_overview.png)
 
-This repository contains a small python code[example workflow](./ftd_shun.py). The python
+This repository contains a small python code [example workflow](./module/ftd_shun.py). The python
 receives the source ip address, input data to paramiko connection and shun the source ip, it waits for N seconds and then remove shun.
 This blocks the offending source IP in Cisco Secure Firewall
 automatically, therefore also blocking any newer attack attempts by that source IP for N seconds.
@@ -210,6 +210,8 @@ Cisco Firepower Threat Defense for VMware v7.4.1 (build 172)
 > shun 10.6.6.6
 Shun 10.6.6.6 added in context: single_vf
 Shun 10.6.6.6 successful
+
+> no shun 10.6.6.6
 
 root@LAB-FMC74:/var/sf/remediations/TriggerFTDShun_1.0/Quarantine_IP#
 ```
