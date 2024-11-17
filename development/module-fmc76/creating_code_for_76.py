@@ -63,7 +63,10 @@ def execute_shun_commands():
         # Execute the no shun command
         print("\nSending 'no shun' command...")
         no_shun_output = run_ssh_command_with_password(f"no shun {param_2}")
-        print(f"End of quarantine output:\n{no_shun_output}")
+        if no_shun_output is not None:
+            print("No shun command executed successfully.")
+        else:
+            print("Failed to execute no shun command.")
 
     except Exception as e:
         print(f"An error occurred: {e}")
