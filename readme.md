@@ -211,7 +211,7 @@ Cisco Firepower Threat Defense for VMware v7.4.1 (build 172)
 Shun 10.6.6.6 added in context: single_vf
 Shun 10.6.6.6 successful
 
-> no shun 10.6.6.6
+> no shun 10.6.6.6 
 
 root@LAB-FMC74:/var/sf/remediations/TriggerFTDShun_1.0/Quarantine_IP#
 ```
