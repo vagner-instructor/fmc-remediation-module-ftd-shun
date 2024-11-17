@@ -238,14 +238,17 @@ requirements for any customer environment before the module can be used in a pro
 
 ## Getting help
 
-If you have questions, concerns, bug reports, etc., please create an issue against this repository.
-
+If you have questions, concerns, bug reports, vulnerability, etc., please create an issue against this repository.
 
 ## Author(s)
 
 This project was written and is maintained by the following individual(s):
 
 * Vagner Silva
+
+## OpenSSF Best Practices
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9715/badge)](https://www.bestpractices.dev/projects/9715)
+
 
 ## Credit(s)
 
